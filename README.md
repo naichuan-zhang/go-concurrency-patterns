@@ -9,6 +9,8 @@ summarized from Google I/O talks:
 
 ## Table of Contents
 
+### Basic
+
 |                                Name                                |                     Description                     |               Go Playground               |
 |:------------------------------------------------------------------:|:---------------------------------------------------:|:-----------------------------------------:|
 |                 [0-start](1-basic/0-start/main.go)                 |          The initial example of goroutine           | [Play](https://go.dev/play/p/xqFZZwFrbSG) |
@@ -33,6 +35,12 @@ summarized from Google I/O talks:
 |                          19-loadbalancer                           |               Go load balancer (TBC)                |                   Play                    |
 |                          20-chatroulette                           |             Go chat roulette toy (TBC)              |                   Play                    |
 |       [21-powerseries](https://go.dev/test/chan/powser1.go)        |        Concurrent power series (by McIlroy)         |                     -                     |
+
+### Advanced
+
+|                     Name                      |                   Description                    |               Go Playground               |
+|:---------------------------------------------:|:------------------------------------------------:|:-----------------------------------------:|
+| [1-ping-pong](2-advanced/1-ping-pong/main.go) | A sample ping-pong two players game in goroutine | [Play](https://go.dev/play/p/3vOEYlUPSTW) |
 
 ## Takeaway Points
 
