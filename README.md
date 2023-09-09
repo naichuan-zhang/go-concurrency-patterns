@@ -38,9 +38,11 @@ summarized from Google I/O talks:
 
 ### Advanced
 
-|                     Name                      |                   Description                    |               Go Playground               |
-|:---------------------------------------------:|:------------------------------------------------:|:-----------------------------------------:|
-| [1-ping-pong](2-advanced/1-ping-pong/main.go) | A sample ping-pong two players game in goroutine | [Play](https://go.dev/play/p/3vOEYlUPSTW) |
+|                                     Name                                     |                   Description                    |               Go Playground               |
+|:----------------------------------------------------------------------------:|:------------------------------------------------:|:-----------------------------------------:|
+|                [1-ping-pong](2-advanced/1-ping-pong/main.go)                 | A sample ping-pong two players game in goroutine | [Play](https://go.dev/play/p/3vOEYlUPSTW) |
+| [2.1-select-and-nil-channel](2-advanced/2.1-select-and-nil-channels/main.go) |           Introduction to nil channels           | [Play](https://go.dev/play/p/s3oO-j86Fqb) |
+|             [2-subscription](2-advanced/2-subscription/main.go)              |                   Subscription                   | [Play](https://go.dev/play/p/EP7Dz47AGwO) |
 
 ## Takeaway Points
 
@@ -62,6 +64,11 @@ summarized from Google I/O talks:
     - timeouts
     - failure
 - And they're fun to use.
+- Concurrent programming can be tricky, Go can make it easier:
+    - channels convey data, timer events, cancellation signals
+    - goroutines serialize access to local mutable state
+    - stack traces & deadlock detector
+    - race detector
 
 ## Useful Links
 

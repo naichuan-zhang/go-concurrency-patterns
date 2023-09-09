@@ -18,6 +18,7 @@ func main() {
 
 	// Game on...
 	// The first ball is tossed.
+	// Comment out the line below to cause deadlock.
 	table <- new(Ball)
 	// Main program waits for 1s before exit.
 	time.Sleep(1 * time.Second)
